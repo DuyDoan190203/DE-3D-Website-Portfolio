@@ -120,7 +120,7 @@ const experiences = [
     date: "April 2025 - July 2025",
     points: [
       "Built the data foundation platform for data-driven decision making at a fast-growing Finnish startup using medallion architecture",
-      "Designed AWS-based data platform with Infrastructure as Code, enabling real-time analytics for board and management reporting",
+      "Designed GCP-based data platform with Infrastructure as Code, enabling real-time analytics for board and management reporting",
       "Developed ETL pipelines with incremental loading and automated validation, reducing manual data processing by 80%",
       "Implemented comprehensive data quality frameworks and monitoring systems that catch data issues before impacting business reporting",
     ],

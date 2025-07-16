@@ -119,10 +119,11 @@ const experiences = [
     iconBg: "linear-gradient(135deg, #001F3F 0%, #4A90E2 100%)",
     date: "April 2025 - July 2025",
     points: [
-      "Built the data foundation platform for data-driven decision making at a fast-growing Finnish startup using medallion architecture",
-      "Designed GCP-based data platform with Infrastructure as Code, enabling real-time analytics for board and management reporting",
-      "Developed ETL pipelines with incremental loading and automated validation, reducing manual data processing by 80%",
-      "Implemented comprehensive data quality frameworks and monitoring systems that catch data issues before impacting business reporting",
+      "Built the data foundation platform for data-driven decision making at a fast-growing Finnish startup",
+      "Designed medallion architecture GCP platform with IaC for real-time analytics in reporting",
+      "Developed ETL pipelines with incremental loading and validation, reducing manual processing by 80%",
+      "Collaborated on web scraping integration to cloud storage for seamless data flows",
+      "Implemented data quality monitoring to prevent issues in business reporting",
     ],
   },
   {
@@ -132,10 +133,11 @@ const experiences = [
     iconBg: "linear-gradient(135deg, #4A90E2 0%, #228B22 50%, #32CD32 100%)",
     date: "November 2024 - February 2025",
     points: [
-      "Built AWS-based data platform processing 5M+ clinical records with 99.9% accuracy using S3, Glue, and Redshift in medallion architecture",
-      "Developed ETL pipelines with Apache Airflow for real-time ML model training, reducing data preparation time from days to hours",
-      "Created Python validation frameworks, achieving 95% reduction in data quality issues across all healthcare datasets",
-      "Expanded ML training data by 30% through automated integration of external healthcare APIs while maintaining strict HIPAA compliance",
+      "Built the foundation and architected cloud data infrastructure for pharmaceutical AI applications in Helsinki's growing healthtech scene",
+      "Built AWS platform processing 5M+ records at 99.9% accuracy using S3, Glue, and Redshift",
+      "Developed Airflow ETL pipelines for ML training, cutting prep time from days to hours",
+      "Created Python validation frameworks, reducing data quality issues by 95%",
+      "Expanded ML data by 30% via API integration with HIPAA compliance",
     ],
   },
   {
@@ -145,10 +147,9 @@ const experiences = [
     iconBg: "linear-gradient(135deg, #383E56 0%, #5A67D8 100%)",
     date: "April 2024 - December 2024",
     points: [
-      "Developed Python-based REST APIs for data integrations with enterprise clients",
-      "Managed PostgreSQL databases with complex SQL schema design and optimization for high-performance queries",
-      "Built scalable server architecture integrating AWS S3 and Google Cloud services for multi-cloud data solutions",
-      "Implemented version control workflows with Git, ensuring code quality and team collaboration standards",
+      "Developed Python-based REST APIs for data integrations",
+      "Managed PostgreSQL databases with SQL for schema design and queries, integrating with AWS S3 and Google Cloud",
+      "Built scalable server logic with Git for version control",
     ],
   },
   {
@@ -158,10 +159,11 @@ const experiences = [
     iconBg: "linear-gradient(135deg, #E6DEDD 0%, #9F7AEA 100%)",
     date: "February 2024 - April 2024",
     points: [
-      "Built REST APIs for client data management systems supporting multiple business applications",
-      "Developed automated data processing pipelines using Python and PostgreSQL for real-time analytics",
-      "Created interactive business intelligence dashboard enabling stakeholders to make data-driven decisions",
-      "Implemented microservices architecture and ETL processes for seamless integration of various client data systems",
+      "Built REST APIs for client data management systems",
+      "Developed automated data processing pipelines using Python and PostgreSQL",
+      "Created real-time analytics dashboard for business intelligence reporting",
+      "Implemented microservices architecture supporting multiple client applications",
+      "Built ETL processes for integrating data from various client systems",
     ],
   },
 ];

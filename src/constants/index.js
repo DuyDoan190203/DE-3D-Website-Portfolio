@@ -232,23 +232,15 @@ const projects = [
   {
     name: "ML-Driven Mobility Service Pipeline",
     description:
-      "Developed an end-to-end data pipeline supporting ML models for ride duration prediction across three mobility service vendors. Features automated data ingestion, preprocessing workflows, and real-time streaming processing with comprehensive monitoring dashboards.",
+      "Data pipeline for fleet operations with automated quality validation",
     tags: [
       {
         name: "apache-airflow",
         color: "blue-text-gradient",
       },
       {
-        name: "aws-kinesis",
-        color: "green-text-gradient",
-      },
-      {
         name: "great-expectations",
         color: "pink-text-gradient",
-      },
-      {
-        name: "terraform",
-        color: "blue-text-gradient",
       },
       {
         name: "machine-learning",
@@ -256,7 +248,7 @@ const projects = [
       },
     ],
     image: maas,
-    source_code_link: "https://github.com/DuyDoan190203",
+    source_code_link: "https://github.com/DuyDoan190203/Fleet-Management-Pipeline-with-Data-Quality/tree/master",
   },
   {
     name: "Fraud Detection Pipeline and Platform",

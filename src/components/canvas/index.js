@@ -6,6 +6,7 @@ import DataFlow from "./DataFlow";
 import DataPipelineCanvas from "./DataPipeline";
 import HealthcareDataCanvas from "./HealthcareDataViz";
 import MedallionArchitectureCanvas from "./MedallionArchitecture";
+import BadmintonToTechCanvas from "./BadmintonToTech";
 
 export { 
   EarthCanvas, 
@@ -15,5 +16,6 @@ export {
   DataFlow,
   DataPipelineCanvas,
   HealthcareDataCanvas,
-  MedallionArchitectureCanvas
+  MedallionArchitectureCanvas,
+  BadmintonToTechCanvas
 };

@@ -15,24 +15,24 @@ const DataVisualization = () => {
 
   const dataMetrics = [
     {
-      label: "Clinical Records Processed",
-      value: "5M+",
-      description: "Healthcare data with 99.9% accuracy",
+      label: "AWS Services Used",
+      value: "8+",
+      description: "Glue, Redshift, S3, Lambda, Kinesis",
     },
     {
-      label: "Manual Processing Reduction",
-      value: "80%",
-      description: "Through automated ETL pipelines",
+      label: "Data Pipeline Projects",
+      value: "3",
+      description: "Healthcare and business analytics",
     },
     {
-      label: "Data Quality Improvement",
-      value: "95%",
-      description: "Reduction in data quality issues",
+      label: "Technologies Applied",
+      value: "12+",
+      description: "Apache Airflow, Kafka, dbt, Docker",
     },
     {
-      label: "ML Training Data Expansion",
-      value: "30%",
-      description: "Through automated API integrations",
+      label: "Company Experience",
+      value: "2",
+      description: "Innate AI and Listeds",
     },
   ];
 
@@ -41,10 +41,10 @@ const DataVisualization = () => {
       <div className="relative z-10 w-full">
         <motion.div variants={textVariant()}>
           <p className={`${styles.sectionSubText} text-center`}>
-            Data Engineering Excellence
+            Data Engineering
           </p>
           <h2 className={`${styles.sectionHeadText} text-center`}>
-            Proven Impact in Finnish Tech.
+            Recent Projects.
           </h2>
         </motion.div>
 
@@ -52,9 +52,8 @@ const DataVisualization = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-4 text-secondary text-[17px] max-w-3xl mx-auto text-center leading-[30px]"
         >
-          From pharmaceutical AI at Innate AI to Finnish startup analytics at Listeds, I leverage AWS cloud 
-          platforms, Apache Airflow orchestration, and modern data quality frameworks to build scalable 
-          solutions that transform healthcare and business data into actionable insights.
+          Key metrics from recent data engineering projects at Innate AI and Listeds, focusing on healthcare data processing 
+          and business analytics using AWS services, Apache Airflow, and data quality frameworks.
         </motion.p>
 
         {/* Data Metrics Grid */}
@@ -117,7 +116,7 @@ const DataVisualization = () => {
                 🎓 Big Data Analytics Specialization
               </h4>
               <p className="text-secondary text-sm">
-                Arcada University of Applied Sciences (2025-2026) - Master Level Studies
+                Arcada University of Applied Sciences (2025-2026) - 30 etcs Master Level Studies
               </p>
             </div>
             <div className="bg-tertiary p-6 rounded-xl border border-[#4A90E2]">

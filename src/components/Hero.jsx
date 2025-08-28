@@ -2,13 +2,14 @@ import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 
 import { styles } from "../styles";
-import { DataPipelineCanvas, HealthcareDataCanvas, MedallionArchitectureCanvas } from "./canvas";
+import { DataPipelineCanvas, HealthcareDataCanvas, MedallionArchitectureCanvas, BadmintonToTechCanvas } from "./canvas";
 
 const Hero = () => {
   const [currentVisualization, setCurrentVisualization] = useState(0);
   
   const visualizations = [
     { component: DataPipelineCanvas, name: "ETL Pipeline", description: "Interactive data pipeline visualization" },
+    { component: BadmintonToTechCanvas, name: "Career Journey", description: "From competitive badminton to data engineering" },
     { component: HealthcareDataCanvas, name: "Data Processing", description: "Clinical data processing & HIPAA compliance" },
     { component: MedallionArchitectureCanvas, name: "Medallion Architecture", description: "Bronze, Silver & Gold data layers" }
   ];

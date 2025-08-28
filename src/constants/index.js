@@ -277,7 +277,7 @@ const projects = [
       },
     ],
     image: fraud,
-    source_code_link: "https://github.com/DuyDoan190203",
+    source_code_link: "https://github.com/DuyDoan190203/fraud-data-detection-platform-using-Kafka",
   },
 ];
 

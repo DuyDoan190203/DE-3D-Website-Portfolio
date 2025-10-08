@@ -113,7 +113,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Data Engineering Intern",
+    title: "Data Engineer Intern",
     company_name: "Listeds (Brainbites)",
     icon: listeds,
     iconBg: "linear-gradient(135deg, #001F3F 0%, #4A90E2 100%)",
@@ -121,78 +121,41 @@ const experiences = [
     points: [
       "Built the data foundation platform for data-driven decision making at a fast-growing Finnish startup",
       "Designed medallion architecture GCP platform with IaC for real-time analytics in reporting",
-      "Developed ETL pipelines with incremental loading and validation, reducing manual processing by 80%",
+      "Developed ETL pipelines",
       "Collaborated on web scraping integration to cloud storage for seamless data flows",
-      "Implemented data quality monitoring to prevent issues in business reporting",
+      "Implemented dashboard and data quality monitoring",
     ],
   },
   {
-    title: "Data Engineering Intern",
+    title: "Data Engineer Intern",
     company_name: "Innate AI (Pharmaceutical AI)",
     icon: innateAI,
     iconBg: "linear-gradient(135deg, #4A90E2 0%, #228B22 50%, #32CD32 100%)",
     date: "November 2024 - February 2025",
     points: [
-      "Built the foundation and architected cloud data infrastructure for pharmaceutical AI applications in Helsinki's growing healthtech scene",
-      "Built AWS platform processing 5M+ records at 99.9% accuracy using S3, Glue, and Redshift",
-      "Developed Airflow ETL pipelines for ML training, cutting prep time from days to hours",
-      "Created Python validation frameworks, reducing data quality issues by 95%",
-      "Expanded ML data by 30% via API integration with HIPAA compliance",
+      "Built the foundation and architected cloud data infrastructure for an AI application",
+      "Built AWS platform processing records using S3, Glue, and Redshift",
+      "Developed Airflow ETL pipelines for ML training",
+      "Created Python validation frameworks, reducing data quality issues",
+      "Expanded ML data via API integration with HIPAA compliance",
     ],
   },
   {
-    title: "Software Engineer (Back-end)",
-    company_name: "BlueWave Data Solutions",
-    icon: null, // No logo - keeping empty as requested
-    iconBg: "linear-gradient(135deg, #383E56 0%, #5A67D8 100%)",
-    date: "April 2024 - December 2024",
-    points: [
-      "Developed Python-based REST APIs for data integrations",
-      "Managed PostgreSQL databases with SQL for schema design and queries, integrating with AWS S3 and Google Cloud",
-      "Built scalable server logic with Git for version control",
-    ],
-  },
-  {
-    title: "Software Engineer",
+    title: "Software Engineer Intern",
     company_name: "Lomado Oy",
-    icon: null, // No logo - keeping empty as requested
+    icon: null,
     iconBg: "linear-gradient(135deg, #E6DEDD 0%, #9F7AEA 100%)",
-    date: "February 2024 - April 2024",
+    date: "February 2024 - May 2024",
     points: [
       "Built REST APIs for client data management systems",
       "Developed automated data processing pipelines using Python and PostgreSQL",
-      "Created real-time analytics dashboard for business intelligence reporting",
-      "Implemented microservices architecture supporting multiple client applications",
       "Built ETL processes for integrating data from various client systems",
     ],
   },
 ];
 
 const testimonials = [
-  {
-    testimonial:
-      "",
-    name: "Dr. Sarah Chen",
-    designation: "Lead Data Scientist",
-    company: "PharmaAI Labs",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "",
-    name: "Michael Rodriguez",
-    designation: "CTO",
-    company: "DataFlow Solutions",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "",
-    name: "Lisa Wang",
-    designation: "Engineering Manager",
-    company: "CloudTech Innovations",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+
 ];
 
 const projects = [

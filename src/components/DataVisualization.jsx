@@ -113,7 +113,7 @@ const DataVisualization = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-tertiary p-6 rounded-xl border border-[#228B22]">
               <h4 className="text-[#228B22] text-lg font-semibold mb-2">
-                🎓 Big Data Analytics Specialization
+                🎓 Big Data Analytics Specialization Program
               </h4>
               <p className="text-secondary text-sm">
                 Arcada University of Applied Sciences (2025-2026) - 30 etcs Master Level Studies

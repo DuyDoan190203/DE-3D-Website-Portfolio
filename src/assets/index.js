@@ -33,7 +33,6 @@ import listeds from "./company/Listeds.png";
 import music from "./music.png";
 import maas from "./maas.png";
 import fraud from "./Fraud.png";
-import badmintonSmash from "./Badminton_Smash.png";
 import labUniversity from "./LAB_0.jpg";
 
 export {
@@ -68,6 +67,5 @@ export {
   music,
   maas,
   fraud,
-  badmintonSmash,
   labUniversity,
 };

@@ -51,8 +51,8 @@ const About = () => {
             variants={fadeIn("", "", 0.1, 1)}
             className='text-secondary text-[17px] leading-[30px] mb-6'
           >
-            I'm a data engineer passionate about transforming raw data into meaningful insights. My journey began at LAB University of Applied Sciences, 
-            where I studied Business Information Technology and discovered my passion for data engineering through web development projects and freelance work.
+            Hi, I'm a data engineer passionate about transforming raw data into meaningful insights. My journey began at LAB University of Applied Sciences, 
+            where I studied Business Information Technology and discovered my passion for data engineering through web development projects.
           </motion.p>
 
           <motion.p
